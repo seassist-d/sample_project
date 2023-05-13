@@ -1,0 +1,64 @@
+@charset "UTF-8";
+body {
+    background-color: #F5F5DC; /* 背景色をアンチークホワイトに設定 */
+    font-family: Arial, sans-serif; /* フォントファミリーをArialに設定 */
+    color: #333; /* 文字色をダークグレーに設定 */
+}
+
+h1 {
+    color: #556B2F; /* 茶色系の文字色に設定 */
+    text-align: center; /* 中央寄せ*/
+}
+
+table {
+    margin: auto; /* テーブルを中央寄せに設定 */
+}
+
+th {
+    text-align: right; /* テーブルのヘッダーを右寄せに設定 */
+    padding-right: 10px; /* テーブルのヘッダーに右側の余白を設定 */
+}
+
+.err {
+    color: #B22222; /* エラーメッセージの文字色を深い赤に設定 */
+}
+
+.center {
+    text-align:center;
+}
+.errCenter {
+     color: #B22222;
+     text-align:center;
+}
+
+form {
+    text-align: center; /* 中央寄せ*/
+}
+
+input[type="text"] {
+    padding: 6px; /* テキスト入力欄に余白を設定 */
+    border-radius: 3px; /* テキスト入力欄に角を丸くする効果を設定 */
+    border: 1px solid #ccc; /* テキスト入力欄に枠線を設定 */
+}
+
+input[type="submit"] {
+  display: inline-block; /* ボタンをブロックではなくインライン要素として表示する */
+  padding: 10px 20px; /* 上下に10px、左右に20pxの余白を設定 */
+  font-size: 16px; /* フォントサイズを16pxに設定 */
+  font-weight: bold; /* フォントウェイトを太字に設定 */
+  text-transform: uppercase; /* テキストをすべて大文字に変換 */
+  color: #007f00; /* 文字色を濃い緑色に設定 */
+  background-color: #fff; /* 背景色を白色に設定 */
+  border: 2px solid #007f00; /* ボーダーを2px幅の濃い緑色の実線に設定 */
+  border-radius: 5px; /* ボタンの角を丸くするために、5pxの半径の丸みを持ったボーダーラジウスを設定 */
+  cursor: pointer; /* マウスポインターを手の形に変更する */
+}
+
+input[type="submit"]:hover {
+  background-color: #007f00; /* ホバー時の背景色を濃い緑色に設定 */
+  color: #fff; /* ホバー時の文字色を白色に設定 */
+}
+
+.pic {
+	text-align: center;
+}
