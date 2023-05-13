@@ -1,5 +1,4 @@
 /**
- * gitTest
  * nonameAdmin
  * LoginServlet.java
  */
