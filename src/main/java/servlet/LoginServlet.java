@@ -23,6 +23,7 @@ import model.entity.AdminBean;
  * Servlet implementation class LoginServlet
  */
 /**
+ * 
  * ログイン、ログアウトをコントロールするクラス
  * 
  * @author 福尾大輔
